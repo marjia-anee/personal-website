@@ -1,45 +1,59 @@
 body{
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-section{
-    height: 600px;
-    padding-bottom: 150px;
-}
-.top-banner{
-    background-image: url("images/header-bg.png");
-    background-size: cover;
 
+.header{
+    background-image: url("images/header-bg.png");
+    background-size: 100% 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
 }
 
 .half-width{
-    width: 40%;
+    width: 45%;
     float: left;
-    margin-left: 5%;
-    padding-left: 5%;
-    padding-top: 8%;
+    margin-left: 80px;
+    margin-top: 200px;
 
 }
-.half-width img{
-    width: 70%;
+.half-width h3{
+    font-size: 25px;
 }
-
-
-h2{
-    font-size: 30px;
-    line-height: 0px;
-
+.half-width h2{
+    font-size: 40px;
+    color: indianred;
+    line-height: 1px;
 }
-h3{
-    font-size: 20px;
-}
-.red-highlight{
-    color: tomato;
-}
-p{
-    font-size: 14px;
+.half-width p{
     color: dimgray;
+    width: 550px;
+    margin-bottom: 30px;
 }
+.half-width-1{
+    width: 45%;
+    float: left;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.half-width-1 img{
+    width: 500px;
+}
+.bio-area{
+    background-image: url(images/biography-bg.png);
+    background-size: 100% 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
 .link-button{
     text-decoration: none;
     background-color: #f37eaf;
@@ -48,21 +62,81 @@ p{
     color: white;
     font-weight: 500;
 }
-.dream-area{
-    background-image: url(images/biography-bg.png);
-    background-size: cover;
-}
-#bio{
+
+#l-work-tag{
     text-align: center;
+    font-weight: 1100;
+    line-height: 0;
+}
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+.latest-work-image{
+    float: left;
+    width: 30%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+
+}
+.latest-work img{
+width: 100%;
+}
+#l-work-tag{
+    text-align: center;
+    padding: 7%;
+
+}
+.contact{
+    background-image: url(images/footer-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 100px;
+    height: 500px;
+
+}
+.contact-info{
+    text-align: center;
+    padding-top: 100px;
+}
+.client-name{
+    line-height: 0px;
+    padding-top: 40px;
+}
+.client-comment{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+    
+}
+.contact-info p{
+    font-size: 12px;
+    color: dimgray;
 }
 
-.container{
-     width: 50%;
-    margin: 0 auto; 
-    text-align:center;
-
-}
-.container span{
-    width:30%; margin:0 1%;
+.box{
+    text-decoration: none;
+    width: 400px;
+    padding: 10px 12px;
+    border: 0px solid;
+    border-radius: 7px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(45deg,#f37eaf,rgb(233, 124, 142))
+  }
+  .email:hover{
+      color: blueviolet;
+  }
+  footer p{
+    text-align: center;
+    font-size: 12px;
 
 }
